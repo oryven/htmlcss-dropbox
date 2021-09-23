@@ -8,13 +8,24 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header */
+
+header {
+    min-height: 546px;
+    background-color: #b4d0e7;
+}
+
+#sfondo-nav {
+    background-color: #ffffff;
+}
+
 .row::after {
     content: "";
     display: table;
     clear: both;
 }
 
-.logo-nav {
+.logo-nav, .paragrafo-jambo,  .img {
     float: left;
     width: 50%;
 }
@@ -34,7 +45,6 @@ nav,ul {
     display: inline-block;
 }
 
-
 header nav ul li {
     list-style-type: none;
     display: inline-block;
@@ -46,4 +56,11 @@ header nav a {
     text-decoration: none;
     color: rgb(38, 34, 44);
     font-size: 14px;
+}
+
+.container-jambo-center {
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    z-index: 10;
 }
