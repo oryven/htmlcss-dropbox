@@ -11,7 +11,7 @@ body{
 /* header */
 
 header {
-    min-height: 546px;
+    min-height: 650px;
     background-color: #b4d0e7;
 }
 
@@ -25,7 +25,7 @@ header {
     clear: both;
 }
 
-.logo-nav, .paragrafo-jambo,  .img {
+.logo-nav {
     float: left;
     width: 50%;
 }
@@ -62,5 +62,25 @@ header nav a {
     width: 80%;
     height: 300px;
     margin: auto;
-    z-index: 10;
+}
+
+h1 {
+    font-size: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.container-img-jumbo {
+    float: left;
+    width: 60%;
+}
+
+.paragrafo-jumbo {
+    float: left;
+    width: 30%;
+    margin-right: 10%;
+}
+
+.img-jumbo {
+    width: 100%;
 }
