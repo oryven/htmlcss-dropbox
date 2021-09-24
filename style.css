@@ -8,6 +8,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.centratura {
+    width: 80vw;
+    margin: auto;
+}
+
 /* header */
 
 header {
@@ -15,8 +20,10 @@ header {
     background-color: #b4d0e7;
 }
 
-#sfondo-nav {
+#regole-nav {
     background-color: #ffffff;
+    /* position: fixed; */
+    position: sticky;
 }
 
 .row::after {
@@ -58,10 +65,8 @@ header nav a {
     font-size: 14px;
 }
 
-.container-jambo-center {
-    width: 80%;
+.container-jambo {
     height: 300px;
-    margin: auto;
 }
 
 h1 {
@@ -84,3 +89,64 @@ h1 {
 .img-jumbo {
     width: 100%;
 }
+
+/* main */
+/* sezione ( trova il tuo piano) */
+
+h2 {
+    margin-top: 150px;
+    font-size: 40px;
+}
+
+input {
+   margin-top: 50px; 
+   margin-bottom: 30px;
+   margin-right: 10px;
+}
+ 
+.radio span {
+   margin-right: 20px;
+}
+
+/* sezione elementi flottati */
+
+.professional {
+    float: left;
+    border: 1px solid gray;
+    width: 30%;
+    min-height: 700px;
+}
+
+.standard {
+    float: left;
+    border: 1px solid grey;   
+    width: 30%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.advanced {
+    float: left;
+    border: 1px solid grey; 
+    width: 30%;
+}
+
+.header-sezione {
+    text-align: center;
+    
+    line-height: 50px;
+    border-bottom: 1px solid grey;
+}
+
+.header-sezione span {
+    margin-left: 10px;
+}
+
+.main-sezione hr {
+    width: 50px;
+}
+
+
+
+
+
