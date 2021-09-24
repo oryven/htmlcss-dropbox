@@ -170,3 +170,19 @@ input {
 
 /* sezopne entra in contatto */
 
+.img-left {
+    float: left;
+    width: 46%;
+    margin-right: 2%;
+}
+
+.testo-right {
+    float: left;
+    width: 46%;
+    margin-left: 2%;
+}
+
+.img-left img {
+    max-width: 100%;
+}
+
