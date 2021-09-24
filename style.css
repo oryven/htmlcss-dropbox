@@ -186,3 +186,24 @@ input {
     max-width: 100%;
 }
 
+/* .entra-in-contatto {
+    margin-bottom: 80px;
+} */
+
+/* esegui più operazioni */
+
+.left-business, .right-business, .center-business {
+    margin-top: 30px;
+    float: left;
+    width: 30%;
+    height: 500px;
+}
+
+.center-business {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.operazioni img {
+    width: 100%;
+}
