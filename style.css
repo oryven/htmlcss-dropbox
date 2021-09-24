@@ -110,11 +110,19 @@ input {
 
 /* sezione elementi flottati */
 
-.professional {
+.altezza-sezioni {
+    min-height: 700px;
+}
+
+.main-sezione{
+    padding: 20px;
+}
+
+.professional, .advanced {
     float: left;
     border: 1px solid gray;
     width: 30%;
-    min-height: 700px;
+    
 }
 
 .standard {
@@ -123,12 +131,6 @@ input {
     width: 30%;
     margin-right: 5%;
     margin-left: 5%;
-}
-
-.advanced {
-    float: left;
-    border: 1px solid grey; 
-    width: 30%;
 }
 
 .header-sezione {
@@ -142,11 +144,29 @@ input {
     margin-left: 10px;
 }
 
-.main-sezione hr {
+.main-sezione > hr {
     width: 50px;
 }
 
+/* sezione enterprise */
 
+.container-enterprise {
+    border: 1px solid grey; 
+    min-height: 300px;
+    margin-top: 40px; 
+    margin-bottom: 80px;
+}
 
+.left-enterprise {
+    float: left;
+    width: 70%;
+}
 
+.right-enterprise {
+    text-align: right;
+    float: right;
+    width: 30%;
+}
+
+/* sezopne entra in contatto */
 
