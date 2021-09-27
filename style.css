@@ -53,6 +53,9 @@ button:hover {
 .logo-nav {
     float: left;
     width: 50%;
+    cursor: pointer;
+    /* line-height: 50px; */
+    vertical-align: middle;
 }
 
 .nav-inizia {
@@ -78,7 +81,7 @@ header nav ul li {
 }
 
 header nav ul li:hover {
-    border-bottom: solid 3px rgb(0,97,255);
+    border-bottom: solid 3px rgb(45, 47, 49);
 } 
 
 header nav a {
@@ -117,14 +120,12 @@ h1 {
 .container-jambo i {
     margin-top: 20px;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .container-jambo button {
     margin: 20px 0 10px 0;
 }
-
-
-
 
 /* main */
 
@@ -268,6 +269,25 @@ hr {
     max-width: 100%;
 }
 
+#button-white {
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    /* max-width: 200px;
+    min-width: 150px; */
+}
+
+#button-white:hover {
+    background-color:lightgrey;
+}
+
+.entra-in-contatto p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
 /* esegui più operazioni */
 
 .left-business, .right-business, .center-business {
@@ -286,7 +306,18 @@ hr {
     width: 100%;
 }
 
+.operazioni p {
+    margin-top: 20px;
+}
+
 /* sezione Più di 50.000 team ( loghi ) */
+
+                
+.scopri-di-più {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
 
 .container-loghi {
     width: 100%;
@@ -313,8 +344,7 @@ hr {
     text-align: center;
     float: left;
     width: 50%;
-    max-height: 150px;
-    line-height: 150%;
+    height: 150px;
     line-height: 150px;
 }
 .riga-loghi img {
@@ -368,14 +398,6 @@ hr {
     float: left;
     width: 30%;
     margin-top: 80px;
-}
-
-#button-white {
-    background-color: white;
-    color: black;
-    border: black 1px solid;
-    /* max-width: 200px;
-    min-width: 150px; */
 }
 
 .container-porta-dropbox h2 {
