@@ -6,6 +6,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .centratura {
@@ -17,7 +18,7 @@ body{
 
 header {
     margin-top: 100px;
-    min-height: 450px;
+    min-height: 500px;
     background-color: #b4d0e7;
 }
 
@@ -28,6 +29,19 @@ header {
     top: 0;
     left: 0;
     z-index: 50;
+    padding: 0 20px 0 20px
+}
+
+button {
+    background-color: #0061ff;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(44, 78, 181);
 }
 
 .row::after {
@@ -63,6 +77,10 @@ header nav ul li {
     margin-left: 30px;
 }
 
+header nav ul li:hover {
+    border-bottom: solid 3px rgb(0,97,255);
+} 
+
 header nav a {
     text-decoration: none;
     color: rgb(38, 34, 44);
@@ -75,7 +93,7 @@ header nav a {
 
 h1 {
     font-size: 70px;
-    margin-top: 50px;
+    /* margin-top: 150px; */
 }
 
 .container-img-jumbo {
@@ -85,16 +103,28 @@ h1 {
 
 .paragrafo-jumbo {
     float: left;
-    width: 30%;
+    width: 35%;
     margin-top: 40px;
-    margin-right: 10%;
+    margin-right: 5%;
 }
 
 .img-jumbo {
     position: relative;
-    top: 50px;
+    top: 40px;
     width: 100%;
 }
+
+.container-jambo i {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.container-jambo button {
+    margin: 20px 0 10px 0;
+}
+
+
+
 
 /* main */
 
@@ -105,24 +135,52 @@ h2 {
     font-size: 40px;
 }
 
-input {
+.check {
    margin-top: 50px; 
    margin-bottom: 30px;
    margin-right: 10px;
 }
  
-.radio span {
+.check span {
    margin-right: 20px;
 }
+
+.fake-check {
+    width: 15px;
+    height: 15px;
+    border: steelblue 4px solid;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.fake-check:hover {
+    background-color: steelblue;
+}
+
 
 /* sezione elementi flottati */
 
 .altezza-sezioni {
-    min-height: 700px;
+    min-height: 900px;
 }
 
-.main-sezione{
+.main-sezione-offerte{
     padding: 20px;
+}
+
+.main-sezione-offerte ul {
+    list-style-type: none;
+    margin-top: 30px;
+}
+
+.main-sezione-offerte li {
+    margin-bottom: 20px;    
+}
+
+.elenco-punti-salienti i {
+    color: steelblue;
 }
 
 .professional, .advanced {
@@ -152,6 +210,25 @@ input {
 hr {
     width: 50px;
 }
+
+.main-sezione-offerte button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-sezione-offerte h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.main-sezione-offerte .mese {
+    color: grey;
+}
+
+.aquista-ora {
+    margin-bottom: 20px;
+}
+
 
 /* sezione enterprise */
 
@@ -293,9 +370,12 @@ hr {
     margin-top: 80px;
 }
 
-#buttom-white {
-    max-width: 200px;
-    min-width: 150px;
+#button-white {
+    background-color: white;
+    color: black;
+    border: black 1px solid;
+    /* max-width: 200px;
+    min-width: 150px; */
 }
 
 .container-porta-dropbox h2 {
@@ -355,6 +435,10 @@ footer a {
     font-size: 12px;
     color: white;
     text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
 
 .lingua-footer {
