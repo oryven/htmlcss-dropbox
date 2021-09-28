@@ -126,7 +126,15 @@ h1 {
     font-size: 30px;
     cursor: pointer;
     color: black; 
+    position: relative;
+    animation: mymove infinite;
+    animation-duration: 5s;
 }
+
+@keyframes mymove {
+    from {top: 0px;}
+    to {top: 50px;}
+  }
 
 .container-jambo button {
     margin: 20px 0 10px 0;
